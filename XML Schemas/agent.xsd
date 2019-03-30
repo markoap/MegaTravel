@@ -48,7 +48,7 @@
                 <xs:element ref="adm:accommodationType"/>
                 <xs:element name="description" type="tp:descriptionType"/>
                 <xs:element ref="tp:location"/>
-                <xs:element name="cancelationPeriod" type="xs:unsignedShort"/>
+                <xs:element name="cancellationPeriod" type="xs:unsignedShort"/>
                 <xs:element name="pricePolicy">
                     <xs:complexType>
                         <xs:sequence>

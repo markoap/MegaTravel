@@ -15,7 +15,7 @@
                 <xs:element minOccurs="1" name="firstName" type="tp:nameType"/>
                 <xs:element minOccurs="0" name="lastName" type="tp:nameType"/>
                 <xs:element name="country" type="tp:nameType" minOccurs="0"/>
-                <xs:element minOccurs="0" name="birthday" type="xs:date"/>
+                <xs:element minOccurs="0" name="dateOfBirth" type="xs:date"/>
                 <xs:element maxOccurs="unbounded" minOccurs="0" name="phoneNumber"
                     type="tp:phoneNumberType"/>
                 <xs:element name="active" type="xs:boolean"/>
